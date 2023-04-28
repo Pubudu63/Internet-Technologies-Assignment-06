@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pos system</title>
+    <link rel="stylesheet" href="assets/bootstap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+<section id="customer">
+<header>
+    <div><h1>POS System </h1></div>
+   <nav>
+       <a href="index.html#customer">Customer</a>
+       <a href="index.html#item">Item</a>
+       <a href="index.html#placeorder">Order</a>
+   </nav>
+</header>
+
+<h2>Customer Page</h2>
+<nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Name
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item active" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+        </div>
+    </div>
+
+</nav>
+<div class="btn-group" role="group" aria-label="Basic mixed styles example">
+    <button type="button" class="btn btn-danger">Add New Customer</button>
+    <button type="button" class="btn btn-warning">View All Customers</button>
+
+</div>
+<div class="btn-group2" role="group" aria-label="Basic mixed styles example">
+    <button type="button" class="btn btn-danger">Add</button>
+    <button type="button" class="btn btn-warning">Update</button>
+    <button type="button" class="btn btn-success">Delete</button>
+</div>
+<table class="table">
+    <thead class="table-light">
+    <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">City</th>
+        <th scope="col">Salary</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th scope="row">C1</th>
+        <td>Kasun</td>
+        <td>Kurunegala</td>
+        <td>100000</td>
+    </tr>
+    <tr>
+        <th scope="row">C2</th>
+        <td>Umesh</td>
+        <td>Kandy</td>
+        <td>750000</td>
+    </tr>
+    <tr>
+        <th scope="row">C3</th>
+        <td>Supun</td>
+        <td>Panadura</td>
+        <td>500000</td>
+    </tr>
+    <tr>
+        <th scope="row">C4</th>
+        <td>Arosha</td>
+        <td>Negambo</td>
+        <td>850000</td>
+    </tr>
+    </tbody>
+</table>
+</section>
+
+<section id="item">
+<header>
+    <div><h1>POS System </h1></div>
+    <nav>
+        <a href="index.html#customer">Customer</a>
+        <a href="index.html#item">Item</a>
+        <a href="index.html#placeorder">Order</a>
+    </nav>
+</header>
+
+    <h2>Item Page</h2>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Item
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item active" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+        <button type="button" class="btn btn-danger">Add New Item</button>
+        <button type="button" class="btn btn-warning">View All Items</button>
+    </div>
+    <div class="btn-group2" role="group" aria-label="Basic mixed styles example">
+        <button type="button" class="btn btn-danger">Add</button>
+        <button type="button" class="btn btn-warning">Update</button>
+        <button type="button" class="btn btn-success">Delete</button>
+    </div>
+    <table class="table">
+        <thead class="table-light">
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Item</th>
+            <th scope="col">Qty</th>
+            <th scope="col">Price</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">I1</th>
+            <td>CR Book</td>
+            <td>2</td>
+            <td>RS:500</td>
+        </tr>
+        <tr>
+            <th scope="row">I2</th>
+            <td>Pen</td>
+            <td>5</td>
+            <td>RS:100</td>
+        </tr>
+        <tr>
+            <th scope="row">I3</th>
+            <td>Pencil</td>
+            <td>2</td>
+            <td>RS:30</td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+
+<section id="placeorder">
+<header>
+    <div><h1>POS System</h1></div>
+    <nav>
+        <a href="index.html#customer">Customer</a>
+        <a href="index.html#item">Item</a>
+        <a href="index.html#placeorder">Order</a>
+    </nav>
+</header>
+    <h2>Place Order</h2>
+    <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4 position-relative">
+            <label for="validationTooltip01" class="form-label">Order Id</label>
+            <input type="text" class="form-control" id="validationTooltip01" value="" required>
+            <div class="valid-tooltip">
+                Looks good!
+            </div>
+        </div>
+        <div class="col-md-4 position-relative">
+            <label for="validationTooltip02" class="form-label">Date</label>
+            <input type="text" class="form-control" id="validationTooltip02" value="" required>
+            <div class="valid-tooltip">
+                Looks good!
+            </div>
+        </div>
+
+
+        <div class="col-md-4 position-relative">
+            <label for="validationTooltip02" class="form-label">Unit Price</label>
+            <input type="text" class="form-control" id="validationTooltip04" value="" required>
+            <div class="valid-tooltip">
+                Looks good!
+            </div>
+        </div>
+        <div class="col-md-3 position-relative">
+            <label for="validationTooltip05" class="form-label">Order Qty</label>
+            <input type="text" class="form-control" id="validationTooltip05" required>
+            <div class="invalid-tooltip">
+                Please provide a valid zip.
+            </div>
+        </div>
+        <div class="col-12">
+            <button class="btn btn-primary" type="submit">Place Order</button>
+        </div>
+    </form>
+    <br>
+    <br>
+    <table class="table">
+        <thead class="table-light">
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Date</th>
+            <th scope="col">Item</th>
+            <th scope="col">Unit Price</th>
+            <th scope="col">Order Qty</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">IT01</th>
+            <td>23/03/2023</td>
+            <td>CR Book</td>
+            <td>RS:250</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <th scope="row">IT02</th>
+            <td>22/03/2023</td>
+            <td>Pen</td>
+            <td>RS:50</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <th scope="row">IT03</th>
+            <td>21/03/2023</td>
+            <td>Pencil</td>
+            <td>RS:15</td>
+            <td>2</td>
+        </tr>
+
+        </tbody>
+    </table>
+</section>
+</body>
+</html>
